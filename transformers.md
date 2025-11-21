@@ -20,5 +20,12 @@ This is the fundamental building block of the model that processes and transform
 
 The final linear normalisation and softmax layer transform the processed embeddings into probabilities, enabling the model to make prediction about the next token in a sequence.
 
+### Embedding
+
+Making sense from text input isn't possible for machines. Text input first has be broken down into tokens. A common misunderstanding is that only words are broken into tokens, but subwords can also be tokens. 
+To make the text input, it needs to be converted into a format that the model can understand and process. Embedding turns the text input into numerical representation that model can work with.
+The steps followed are 1) Tokenization 2) Obtain Token Embedding 3) add Positional Information 
+
+#### Tokenization
 
 
